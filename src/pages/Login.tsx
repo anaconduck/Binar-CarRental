@@ -90,7 +90,7 @@ export default function Login() {
                   );
     
                   // If login succeed, redirect ke home
-                  navigate('/');
+                  navigate('/dashboard');
                 }}
                 className="bg-blue-800 text-white font-bold w-[450px] py-2"
                 type="button">
