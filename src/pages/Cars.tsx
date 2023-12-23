@@ -74,7 +74,7 @@ export default function Home() {
       setCarToDelete(carId);
       setShowAlert(true);
     } catch (error) {
-      console.error("Error deleting car:", error.message);
+      console.error("Error deleting car");
     }
   };
   
@@ -107,7 +107,7 @@ export default function Home() {
           console.error("Failed to delete car:", response.statusText);
         }
       } catch (error) {
-        console.error("Error deleting car:", error.message);
+        console.error("Error deleting car");
       }
     }
   };
