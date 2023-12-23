@@ -12,15 +12,15 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen }) => {
         isOpen ? "" : "hidden"
       }`}
     >
-      {location.pathname == "/" ? (
+      {location.pathname == "/dashboard" ? (
         <>
-          <Link to={"/"}
+          <Link to={"/dashboard"}
             className=" h-10 w-full hover:bg-indigo-200 mt-5 text-gray-400 font-bold text-base py-3 pl-6"
           >
             DASHBOARD
           </Link> 
 
-          <Link to={"/"}
+          <Link to={"/dashboard"}
             className=" h-10 w-full hover:bg-indigo-200 font-bold text-sm py-3 pl-6"
           >
             Dashboard
