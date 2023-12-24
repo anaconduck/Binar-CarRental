@@ -180,10 +180,10 @@ export default function Home() {
                             </div>
                           </td>
                           <td className="px-2 py-4 text-sm font-medium whitespace-nowrap">
-                            10/12/2023 23:23 pm
+                            -
                           </td>
                           <td className="px-2 py-4 text-sm font-medium whitespace-nowrap">
-                            10/12/2023 23:23 pm
+                            -
                           </td>
                         </tr>
                       ))}
