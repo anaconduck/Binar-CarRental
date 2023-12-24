@@ -164,7 +164,7 @@ export default function Home() {
                         <ClockIcon className="h-5 w-5 text-gray-300" />
                         <p className="font-light text-sm">
                           Created at {moment(car.create_at).format(
-                                    "DD/MM/YYYY, HH:mm ")}
+                                    "DD/MM/YYYY, HH:mm")}
                         </p>
                       </div>
                     )}

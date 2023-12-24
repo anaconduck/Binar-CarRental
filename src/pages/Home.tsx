@@ -79,7 +79,7 @@ export default function Home() {
           <div className="grid">
               <div className=" flex py-2 align-middle  max-w-fit ">
                 <div className="overflow-hidden h-fit border-b border-black sm:rounded-lg">
-                <h1 className="font bold mt-5 mb-8">List Order</h1>
+                <h1 className="font-bold mt-5 mb-8">List Order</h1>
                   <table className="min-w-full divide-y divide-gray-200">
                     <thead className="bg-blue-100">
                       <tr>
@@ -190,7 +190,7 @@ export default function Home() {
                     </tbody>
                   </table>
 
-                  <h1 className="font bold mt-5 mb-8">List Order</h1>
+                  <h1 className="font-bold mt-8 mb-8">List Car</h1>
                   <table className="min-w-full divide-y divide-gray-200">
                     <thead className="bg-blue-100">
                       <tr>

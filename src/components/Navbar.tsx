@@ -43,11 +43,13 @@ import { Link } from "react-router-dom";
         </form>
   
           {isLoggedIn ? (
+            <Link to = "/">
             <button
               className="ml-4 me-2 py-2 px-3 bg-blue-900 text-white rounded-lg"
               onClick={onLogout}>
               Logout
             </button>
+            </Link>
           ) : (
             <Link to="/login">
               <button 
