@@ -78,50 +78,50 @@ export default function Home() {
           </div>
           <div className="grid">
               <div className=" flex py-2 align-middle  max-w-fit ">
-                <div className="shadow overflow-hidden h-fit border-b border-gray-200 sm:rounded-lg">
+                <div className="overflow-hidden h-fit border-b border-black sm:rounded-lg">
                 <h1 className="font bold mt-5 mb-8">List Order</h1>
                   <table className="min-w-full divide-y divide-gray-200">
                     <thead className="bg-blue-100">
                       <tr>
                         <th
                           scope="col"
-                          className="px-6 py-3 text-left text-xs font-bold"
+                          className="px-2 py-3 text-left text-xs font-bold"
                         >
                           Name
                         </th>
                         <th
                           scope="col"
-                          className="px-6 py-3 text-left text-xs font-bold"
+                          className="px-2 py-3 text-left text-xs font-bold"
                         >
                           Category
                         </th>
                         <th
                           scope="col"
-                          className="px-6 py-3 text-left text-xs font-bold"
+                          className="px-2 py-3 text-left text-xs font-bold"
                         >
                           Price
                         </th>
                         <th
                           scope="col"
-                          className="px-6 py-3 text-left text-xs font-bold"
+                          className="px-2 py-3 text-left text-xs font-bold"
                         >
                           Create At
                         </th>
                         <th
                           scope="col"
-                          className="px-6 py-3 text-left text-xs font-bold"
+                          className="px-2 py-3 text-left text-xs font-bold"
                         >
                           Update At
                         </th>
                         <th
                           scope="col"
-                          className="px-6 py-3 text-left text-xs font-bold"
+                          className="px-2 py-3 text-left text-xs font-bold"
                         >
                           Start Rent
                         </th>
                         <th
                           scope="col"
-                          className="px-6 py-3 text-left text-xs font-bold"
+                          className="px-2 py-3 text-left text-xs font-bold"
                         >
                           Finish Rent
                         </th>
@@ -130,7 +130,7 @@ export default function Home() {
                     <tbody className="bg-white divide-y divide-gray-200">
                       {cars.map((car: CarResponse) => (
                         <tr key={car.id}>
-                          <td className="px-6 py-4 whitespace-nowrap">
+                          <td className="px-2 py-4 whitespace-nowrap">
                             <div className="flex items-left">
                               <div>
                                 <div className="text-sm font-medium text-gray-900">
@@ -139,7 +139,7 @@ export default function Home() {
                               </div>
                             </div>
                           </td>
-                          <td className="px-6 py-4 whitespace-nowrap">
+                          <td className="px-2 py-4 whitespace-nowrap">
                             <div className="flex items-left">
                               <div>
                                 <div className="text-sm font-medium text-gray-900">
@@ -148,7 +148,7 @@ export default function Home() {
                               </div>
                             </div>
                           </td>
-                          <td className="px-6 py-4 whitespace-nowrap">
+                          <td className="px-2 py-4 whitespace-nowrap">
                             <div className="flex items-left">
                               <div>
                                 <div className="text-sm font-medium text-gray-900">
@@ -157,82 +157,82 @@ export default function Home() {
                               </div>
                             </div>
                           </td>
-                          <td className="px-6 py-4 whitespace-nowrap">
+                          <td className="px-2 py-4 whitespace-nowrap">
                             <div className="flex items-left">
                               <div>
                                 <div className="text-sm font-medium text-gray-900">
                                   {moment(car.create_at).format(
-                                    "DD/MM/YYYY HH:mm:ss a"
+                                    "DD/MM/YYYY HH:mm a"
                                   )}
                                 </div>
                               </div>
                             </div>
                           </td>
-                          <td className="px-6 py-4 whitespace-nowrap">
+                          <td className="px-2 py-4 whitespace-nowrap">
                             <div className="flex items-left">
                               <div>
                                 <div className="text-sm font-medium text-gray-900">
                                   {moment(car.update_at).format(
-                                    "DD/MM/YYYY HH:mm:ss a"
+                                    "DD/MM/YYYY HH:mm a"
                                   )}
                                 </div>
                               </div>
                             </div>
                           </td>
-                          <td className="px-6 py-4 text-sm font-medium whitespace-nowrap">
-                            -
+                          <td className="px-2 py-4 text-sm font-medium whitespace-nowrap">
+                            10/12/2023 23:23 pm
                           </td>
-                          <td className="px-6 py-4 text-sm font-medium whitespace-nowrap">
-                            -
+                          <td className="px-2 py-4 text-sm font-medium whitespace-nowrap">
+                            10/12/2023 23:23 pm
                           </td>
                         </tr>
                       ))}
                     </tbody>
                   </table>
 
-                  <h1 className="font bold mt-8 mb-8">List Car</h1>
+                  <h1 className="font bold mt-5 mb-8">List Order</h1>
                   <table className="min-w-full divide-y divide-gray-200">
                     <thead className="bg-blue-100">
                       <tr>
                         <th
                           scope="col"
-                          className="px-6 py-3 text-left text-xs font-bold"
+                          className="px-3 py-3 text-left text-xs font-bold"
                         >
                           Name
                         </th>
                         <th
                           scope="col"
-                          className="px-6 py-3 text-left text-xs font-bold"
+                          className="px-3 py-3 text-left text-xs font-bold"
                         >
                           Category
                         </th>
                         <th
                           scope="col"
-                          className="px-6 py-3 text-left text-xs font-bold"
+                          className="px-3 py-3 text-left text-xs font-bold"
                         >
                           Price
                         </th>
                         <th
                           scope="col"
-                          className="px-6 py-3 text-left text-xs font-bold"
+                          className="px-3 py-3 text-left text-xs font-bold"
                         >
                           Create At
                         </th>
                         <th
                           scope="col"
-                          className="px-6 py-3 text-left text-xs font-bold"
+                          className="px-3 py-3 text-left text-xs font-bold"
                         >
                           Update At
                         </th>
                         <th
                           scope="col"
-                          className="px-6 py-3 text-left text-xs font-bold"
+                          className="px-3 py-3 text-left text-xs font-bold"
                         >
                           Start Rent
                         </th>
                         <th
                           scope="col"
-                          className="px-6 py-3 text-left text-xs font-bold"
+                          className="px-3 py-3 text-left text-xs font-bold"
                         >
                           Finish Rent
                         </th>
@@ -241,7 +241,7 @@ export default function Home() {
                     <tbody className="bg-white divide-y divide-gray-200">
                       {cars.map((car: CarResponse) => (
                         <tr key={car.id}>
-                          <td className="px-6 py-4 whitespace-nowrap">
+                          <td className="px-3 py-4 whitespace-nowrap">
                             <div className="flex items-left">
                               <div>
                                 <div className="text-sm font-medium text-gray-900">
@@ -250,7 +250,7 @@ export default function Home() {
                               </div>
                             </div>
                           </td>
-                          <td className="px-6 py-4 whitespace-nowrap">
+                          <td className="px-3 py-4 whitespace-nowrap">
                             <div className="flex items-left">
                               <div>
                                 <div className="text-sm font-medium text-gray-900">
@@ -259,7 +259,7 @@ export default function Home() {
                               </div>
                             </div>
                           </td>
-                          <td className="px-6 py-4 whitespace-nowrap">
+                          <td className="px-3 py-4 whitespace-nowrap">
                             <div className="flex items-left">
                               <div>
                                 <div className="text-sm font-medium text-gray-900">
@@ -268,32 +268,32 @@ export default function Home() {
                               </div>
                             </div>
                           </td>
-                          <td className="px-6 py-4 whitespace-nowrap">
+                          <td className="px-3 py-4 whitespace-nowrap">
                             <div className="flex items-left">
                               <div>
                                 <div className="text-sm font-medium text-gray-900">
                                   {moment(car.create_at).format(
-                                    "DD/MM/YYYY HH:mm:ss a"
+                                    "DD/MM/YYYY HH:mm a"
                                   )}
                                 </div>
                               </div>
                             </div>
                           </td>
-                          <td className="px-6 py-4 whitespace-nowrap">
+                          <td className="px-3 py-4 whitespace-nowrap">
                             <div className="flex items-left">
                               <div>
                                 <div className="text-sm font-medium text-gray-900">
                                   {moment(car.update_at).format(
-                                    "DD/MM/YYYY HH:mm:ss a"
+                                    "DD/MM/YYYY HH:mm a"
                                   )}
                                 </div>
                               </div>
                             </div>
                           </td>
-                          <td className="px-6 py-4 text-sm font-medium whitespace-nowrap">
-                            -
+                          <td className="px-3 py-4 text-sm font-medium whitespace-nowrap">
+                           -
                           </td>
-                          <td className="px-6 py-4 text-sm font-medium whitespace-nowrap">
+                          <td className="px-3 py-4 text-sm font-medium whitespace-nowrap">
                             -
                           </td>
                         </tr>

@@ -150,7 +150,7 @@ export default function Home() {
                   key={car.id}
                   className="card flex flex-col shadow bg-white border-0  text-sm p-5  rounded-xl  w-[275px]">
                   <img
-                    className="w-100 h-100  "
+                    className="object-contain h-48 w-96"
                     src={car.car_img}
                   />
                   <div className="card-body flex flex-col gap-2 ">
